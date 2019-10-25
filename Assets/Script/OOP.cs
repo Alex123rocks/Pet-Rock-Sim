@@ -2,8 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class OOP : MonoBehaviour
+public class Truck : MonoBehaviour
 {
+    int WheelCount;
+    bool HasBed;
+    string Brand;
+    string Model;
+
     // Start is called before the first frame update
     void Start()
     {
